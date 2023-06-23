@@ -1,6 +1,6 @@
 USE gamesdb;
 
-DELETE FROM customers
+DELETE FROM customer
 WHERE id=4;
 
-SELECT * from customers
+SELECT * from customer;

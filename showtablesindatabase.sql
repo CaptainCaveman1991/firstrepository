@@ -1,0 +1,3 @@
+use gamesdb;
+
+show tables;
