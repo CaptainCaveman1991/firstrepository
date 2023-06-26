@@ -13,7 +13,7 @@ VALUES ('Halo', 40.00),
 ('Bunnys_squirals_playing_in_the_forest', 50.00);
 
 INSERT INTO orders (fk_cust_id, fk_prod_id)
-VALUES (1, 4),
+VALUES (1, 3),
 (4, 3);
 
 SELECT * FROM products;

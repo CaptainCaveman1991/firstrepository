@@ -14,7 +14,7 @@ CREATE TABLE customer (
 CREATE TABLE IF NOT EXISTS products (
 	id INT PRIMARY KEY AUTO_INCREMENT,
     prod_name VARCHAR(50) NOT NULL,
-    price FLOAT
+    price DECIMAL
 );
 CREATE TABLE IF NOT EXISTS orders (
 	id INT PRIMARY KEY auto_increment,
