@@ -11,8 +11,11 @@ CREATE TABLE customer (
     last_name VARCHAR(20) NOT NULL,
     age INT NOT NULL
 );
-
-
+CREATE TABLE IF NOT EXISTS products (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    prod_name VARCHAR(50) NOT NULL,
+    price FLOAT
+);
 CREATE TABLE IF NOT EXISTS orders (
 	id INT PRIMARY KEY auto_increment,
     fk_cust_id INT NOT NULL,
@@ -21,9 +24,5 @@ CREATE TABLE IF NOT EXISTS orders (
     FOREIGN KEY (fk_prod_id) REFERENCES products(id)
 );
 
-CREATE TABLE IF NOT EXISTS products (
-	id INT PRIMARY KEY AUTO_INCREMENT,
-    prod_name VARCHAR(50) NOT NULL,
-    price FLOAT
+
     
-);
