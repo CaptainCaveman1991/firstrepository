@@ -1,0 +1,11 @@
+h1.vis {
+    visibility: hidden;
+}
+
+div.scroll {
+    background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
