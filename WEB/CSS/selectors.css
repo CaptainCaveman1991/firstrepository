@@ -1,0 +1,10 @@
+em {
+    color: blue;
+}
+
+p em { color:red }
+
+p {color: limegreen;}
+
+h1 + p {color: purple;}
+
