@@ -71,3 +71,60 @@ console.log(car3["Reg"]);
 
 
 
+// excercise
+
+let=(x=1); 
+while(x<1000){x++
+    if(x==1000){
+        console.log("True");
+    } else if(x==50) {
+        console.log("maybe");
+    } else if(x==1001) {
+        console.log("false");
+    }
+    }
+console.log(x);
+
+
+// functions
+function greeting(firstname, surname){
+    console.log("Hello, "+firstname + " " + surname)
+}
+greeting("Alexander", "Cave")
+
+function add(number1, number2, number3){
+    console.log(number1 + number2 + number3);
+    return number1 + number2 + number3;
+};
+
+add(1,2,3);
+
+function addition(number1, number2){
+    return number1 + number2;
+}
+function subtract(number1, number2){
+    return number1 - number2;
+}
+function devides(number1, number2){
+    return number1 / number2;
+}
+function calculate(number1, number2, operation){
+    console.log(number1, number2, operation);
+
+    if("+" == operation){
+        // let answer=addition(number1 ,number2)
+        // console.log("answer" + " " + answer)
+        console.log(`Answer: ${addition(number1, number2)}`)
+    }
+    //   console.log(addition(number1, number2))}
+      else if("-" == operation){
+        console.log(subtract(number1, number2))
+      } else if("/" == operation){
+        console.log(devides(number1, number2))
+      }
+
+    
+}
+calculate(1,2,"+")
+calculate(8,7,"-")
+calculate(8,7,"/")
