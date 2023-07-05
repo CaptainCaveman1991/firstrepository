@@ -128,3 +128,14 @@ function calculate(number1, number2, operation){
 calculate(1,2,"+")
 calculate(8,7,"-")
 calculate(8,7,"/")
+
+
+let pricelist=[
+    {item:"bread", itemprice: 1.00, quantity: 1},
+    {item:"eggs", itemprice: 3.00, quantity: 2},
+    {item:"milk", itemprice: 1.50, quantity: 1}
+
+];
+
+
+console.log(pricelist);
