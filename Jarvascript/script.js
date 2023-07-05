@@ -137,5 +137,6 @@ let pricelist=[
 
 ];
 
-
 console.log(pricelist);
+
+for(pricelist)
