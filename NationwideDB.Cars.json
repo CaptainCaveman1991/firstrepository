@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "64a6c821633b29a4b3ce482c"
+  },
+  "Make": "Fiat",
+  "Model": "Panda",
+  "Colour": "Pink"
+},
+{
+  "_id": {
+    "$oid": "64a6c821633b29a4b3ce482d"
+  },
+  "Make": "VW",
+  "Model": "Golf",
+  "Colour": "Blue"
+},
+{
+  "_id": {
+    "$oid": "64a6c88e633b29a4b3ce482e"
+  },
+  "Make": "Nissan",
+  "Model": "Micra",
+  "Colour": "Silver"
+},
+{
+  "_id": {
+    "$oid": "64a6c88e633b29a4b3ce482f"
+  },
+  "Make": "Ford",
+  "Model": "Fiesta",
+  "Colour": "Green"
+}]
