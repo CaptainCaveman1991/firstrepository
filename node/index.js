@@ -33,3 +33,4 @@ for(let x=1; x<101; x++){
     else if(x%3!=0 && x%5!=0 && x%7!=0) console.log(colors.america("I am not a multipul 3,5,7"));
     else console.log(x);
 };
+

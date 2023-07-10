@@ -4,6 +4,7 @@
   "description": "\"\"",
   "main": "index.js",
   "scripts": {
+    "fridaycode": "node newindex.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
