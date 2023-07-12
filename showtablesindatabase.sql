@@ -1,3 +1,0 @@
-use gamesdb;
-
-show tables;
