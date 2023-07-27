@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Data from './data';
+import Data from './datafromweb';
 
 function App(){
   return (
     <>
-      <Data/>
+      <h1>welcome to NBS</h1>
 
+        <Menu/>
     </>
+    
 
-  )
+  );
 }
 
 
